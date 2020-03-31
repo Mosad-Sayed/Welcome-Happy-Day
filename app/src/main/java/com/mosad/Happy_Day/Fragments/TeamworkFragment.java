@@ -45,6 +45,7 @@ public class TeamworkFragment extends Fragment {
         Data = new ArrayList<>();
         TeamItem firstitem = new TeamItem();
         firstitem.name = "الدكتور المشرف \n أ.د أحمد سعيد";
+        firstitem.image = R.drawable.logo;
         Data.add(firstitem);
 
         TeamItem second = new TeamItem();
