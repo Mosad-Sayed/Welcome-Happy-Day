@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hall_Details.Wedding_detials.Hall_details">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/logo" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_grand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="جراند بلازا"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_s3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_grand"
+                android:layout_centerHorizontal="true"
+                android:text="السعة 450 شخص "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/txt_s3a"
+                android:layout_centerHorizontal="true"
+                android:numStars="5"
+                android:rating="2.5"
+                android:stepSize="0.5" />
+
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/ratingBar"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/social_round"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="5dp"
+                android:src="@drawable/ic_location_on_black_24dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBar"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:text="بلبيس .. شرقية .. طريق العدلية\n ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/telphone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/location"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="49dp"
+                android:background="@drawable/social_round"
+                android:onClick="call"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="5dp"
+                android:src="@drawable/ic_local_phone_black_24dp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="01280869671 - 01201106090 \n يرجى التكرم بذكر اسم التطبيق عند التواصل\nــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="التفــــاصيــــل\nـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ "
+                android:textColor="#EE0808"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/details1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detials"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text=" ليست الأناقة , والخبرة , وصالات الحفــــــــــلات أو \n المؤتمرات الضخمة سوى أسباب بسيطة لكى تفكروا\n فى إقامة زفافكم أو مؤتمراتكم فى قاعة جراند بلازا \n ثقوا بنا لاننا نعدكم بتحقيق أحلامكم وتطلعاتكم على\n طريقتنا الخاصة فى قاعة جراند بلازا .\n\nاحتفلوا بيومكم المميز وسط أجواء من الفخــــــــامة\nوالجمال والرقى . \nـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/details1"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="خدمة صف السيارات .. يوجد موقف خاص \nـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edafy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/car"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="الخدمات الأضافيـة \nــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ "
+                android:textColor="#F80707"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edafy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edafy"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="دى جى \n خدمة الضيافة \n خدمة البوفية \n البخار وأنوار الليزر\n أضواء ملاحقة العرسان \n سلم مركزى للزفة \n خدمة تحضير التورتة\n ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ \n\n للحجز أضغط هنـا .."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/edafy1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/social_round"
+                android:onClick="btn_grand"
+                android:text="Book"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+
+

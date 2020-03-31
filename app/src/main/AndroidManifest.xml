@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mosad.Happy_Day">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_wedding"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Hall_Details.Engagement_occasions_detials.Laguna_details" />
+        <activity android:name=".Hall_Details.Engagement_occasions_detials.Aljawhra_detials" />
+        <activity android:name=".Hall_Details.Engagement_occasions_detials.Meeting_details" />
+        <activity android:name=".Hall_Details.Birtday_detials.Farida_details" />
+        <activity android:name=".Hall_Details.Birtday_detials.Orchid_detials" />
+        <activity android:name=".Hall_Details.Birtday_detials.Riviera_detials" />
+        <activity android:name=".Hall_Details.Birtday_detials.Panorama_details" />
+        <activity android:name=".Activity.Login_Admin_Activity" />
+        <activity android:name=".Hall_Details.Wedding_detials.CairoFestival_detials" />
+        <activity android:name=".Hall_Details.Wedding_detials.Festival_detials" />
+        <activity android:name=".Hall_Details.Wedding_detials.Laylaty_detials" />
+        <activity android:name=".Hall_Details.Wedding_detials.Sonsta_detials" />
+        <activity android:name=".Activity.Books" />
+        <activity android:name=".Activity.Engagement_occasionsActivity" />
+        <activity android:name=".Booking.BookingActivity" />
+        <activity android:name=".Hall_Details.Wedding_detials.MyJoy_details" />
+        <activity android:name=".Hall_Details.Wedding_detials.LaVista_detials" />
+        <activity android:name=".Hall_Details.Wedding_detials.SweetNight_details" />
+        <activity android:name=".Hall_Details.Birtday_detials.Nights_details" />
+        <activity android:name=".Activity.BirhdayActivity" />
+        <activity android:name=".Hall_Details.Wedding_detials.Hall_details" />
+        <activity android:name=".Activity.WeddingActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+    </application>
+
+</manifest>

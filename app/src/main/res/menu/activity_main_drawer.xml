@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_Fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/books"
+            android:title="Books" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+        <item android:title="Team Work">
+            <menu>
+                <item
+                    android:id="@+id/Team_Work"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="Team Work" />
+
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

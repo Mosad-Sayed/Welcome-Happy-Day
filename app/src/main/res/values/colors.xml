@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#70CDE8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#97E9f5</color>
+    <color name="black">#000000</color>
+    <color name="bla">#030303</color>
+    <color name="grey">#79928E8E</color>
+    <color name="color">#54ABEE</color>
+    <color name="wh">#92111010</color>
+    <color name="white">#ffffff</color>
+    <color name="sign">#75FFFFFF</color>
+    <color name="register">#70CDE8</color>
+</resources>
