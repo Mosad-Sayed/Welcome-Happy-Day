@@ -40,7 +40,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class Books extends AppCompatActivity {
-    String url = "https://hallsapplication.000webhostapp.com/allBooks.php";
+    String url = "https://apphappy.000webhostapp.com/allBooks.php";
     TextView textView;
     RequestQueue requestQueue;
     ListView listView;
@@ -58,7 +58,7 @@ public class Books extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listview);
         JSONObject jsonObject = new JSONObject();
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://hallsapplication.000webhostapp.com/allBooks.php", jsonObject, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://apphappy.000webhostapp.com/allBooks.php", jsonObject, new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {

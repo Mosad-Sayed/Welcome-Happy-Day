@@ -22,13 +22,13 @@ public class Riviera_detials extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/mrwa1.jpg",
+            "https://apphappy.000webhostapp.com/images/mrwa1.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/mrwa2.jpg",
+            "https://apphappy.000webhostapp.com/images/mrwa2.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/mrwa3.jpg",
+            "https://apphappy.000webhostapp.com/images/mrwa3.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/marwa4.jpg"
+            "https://apphappy.000webhostapp.com/images/marwa4.jpg"
     };
 
     @Override

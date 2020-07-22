@@ -11,4 +11,7 @@
     <color name="white">#ffffff</color>
     <color name="sign">#75FFFFFF</color>
     <color name="register">#70CDE8</color>
+    <color name="greylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#09c6df</color>
 </resources>

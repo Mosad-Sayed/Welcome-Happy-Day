@@ -37,7 +37,7 @@ import java.util.ArrayList;
 
 public class BirhdayActivity extends AppCompatActivity {
 
-    String url = "https://hallsapplication.000webhostapp.com/birthday.php";
+    String url = "https://apphappy.000webhostapp.com/birhday.php";
     TextView textView;
     RequestQueue requestQueue;
     ListView listView;
@@ -56,7 +56,7 @@ public class BirhdayActivity extends AppCompatActivity {
 
         JSONObject jsonObject = new JSONObject();
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://hallsapplication.000webhostapp.com/birthday.php", jsonObject, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://apphappy.000webhostapp.com/birhday.php", jsonObject, new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {
@@ -172,7 +172,7 @@ public class BirhdayActivity extends AppCompatActivity {
             price.setText(listA.get(i).price);
 
 
-            Picasso.get().load("https://hallsapplication.000webhostapp.com/images/" + listA.get(i).img).into(img);
+            Picasso.get().load("https://apphappy.000webhostapp.com/images/" + listA.get(i).img).into(img);
 
 
             return view1;

@@ -70,7 +70,7 @@ public class SocialMedia extends Fragment implements View.OnClickListener {
             final String message = social_ed2.getText().toString().trim();
 
             RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
-            StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://hallsapplication.000webhostapp.com/suggestion.php", new Response.Listener<String>() {
+            StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://apphappy.000webhostapp.com/suggation.php", new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     Toast.makeText(getActivity(), response, Toast.LENGTH_LONG).show();

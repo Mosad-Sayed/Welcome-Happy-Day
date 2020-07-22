@@ -22,13 +22,13 @@ public class Aljawhra_detials extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/l8.jpg",
+            "https://apphappy.000webhostapp.com/images/l8.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/l9.jpg",
+            "https://apphappy.000webhostapp.com/images/l9.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/l8.jpg",
+            "https://apphappy.000webhostapp.com/images/l8.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/l9.jpg"
+            "https://apphappy.000webhostapp.com/images/l9.jpg"
     };
 
     @Override

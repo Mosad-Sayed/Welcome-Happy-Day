@@ -24,13 +24,13 @@ public class SweetNight_details extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://tourismapplication.000webhostapp.com/images/n1.jpg",
+            "https://apphappy.000webhostapp.com/images/n1.jpg",
 
-            "https://tourismapplication.000webhostapp.com/images/n2.jpg",
+            "https://apphappy.000webhostapp.com/images/n2.jpg",
 
-            "https://tourismapplication.000webhostapp.com/images/n3.jpg",
+            "https://apphappy.000webhostapp.com/images/n3.jpg",
 
-            "https://tourismapplication.000webhostapp.com/images/n4.jpg"
+            "https://apphappy.000webhostapp.com/images/n4.jpg"
 
     };
 

@@ -42,7 +42,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class Engagement_occasionsActivity extends AppCompatActivity {
-    String url = "http://hallsapplication.000webhostapp.com/Enagment.php";
+    String url = "https://apphappy.000webhostapp.com/Enagement.php";
     TextView textView;
     RequestQueue requestQueue;
     ListView listView;
@@ -61,7 +61,7 @@ public class Engagement_occasionsActivity extends AppCompatActivity {
 
         JSONObject jsonObject = new JSONObject();
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "http://hallsapplication.000webhostapp.com/Enagment.php", jsonObject, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://apphappy.000webhostapp.com/Enagement.php", jsonObject, new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {
@@ -190,7 +190,7 @@ public class Engagement_occasionsActivity extends AppCompatActivity {
             price.setText(listA.get(i).price);
 
 
-            Picasso.get().load("https://hallsapplication.000webhostapp.com/images/" + listA.get(i).img).into(img);
+            Picasso.get().load("https://apphappy.000webhostapp.com/images/" + listA.get(i).img).into(img);
 
 
             return view1;

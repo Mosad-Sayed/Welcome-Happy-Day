@@ -23,13 +23,13 @@ public class Sonsta_detials extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/s.jpg",
+            "https://apphappy.000webhostapp.com/images/s.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/s1.jpg",
+            "https://apphappy.000webhostapp.com/images/s1.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/s2.jpg",
+            "https://apphappy.000webhostapp.com/images/s2.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/s3.jpg"
+            "https://apphappy.000webhostapp.com/images/s3.jpg"
 
     };
     @Override

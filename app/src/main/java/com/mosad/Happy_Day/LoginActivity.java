@@ -22,6 +22,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.mosad.Happy_Day.Fragments.ProfileFragment;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -85,7 +86,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                 RequestQueue requestQueue = Volley.newRequestQueue(this);
 
-                JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, "https://hallsapplication.000webhostapp.com/loginpage.php", jsonObject, new Response.Listener<JSONObject>() {
+                JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, "https://apphappy.000webhostapp.com/loginpage.php", jsonObject, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject jsonObject) {
                         try {
@@ -95,6 +96,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             if (responsestatus) {
                                 String name = jsonObject.getJSONObject("data").getString("username");
                                 String email = jsonObject.getJSONObject("data").getString("email");
+
+
 
                                 SharedPreferences sharedPreferences = getSharedPreferences("userFile", MODE_PRIVATE);
                                 SharedPreferences.Editor editor = sharedPreferences.edit();

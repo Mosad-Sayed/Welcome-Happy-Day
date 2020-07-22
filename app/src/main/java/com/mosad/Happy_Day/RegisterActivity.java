@@ -59,10 +59,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
             if (username.equals("") || password.equals("") || email.equals("")) {
 
-                Toast.makeText(this, "please fill all values", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "من فضلك أدخل البيانات", Toast.LENGTH_SHORT).show();
             } else {
                 RequestQueue requestQueue = Volley.newRequestQueue(this);
-                StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://hallsapplication.000webhostapp.com/register.php", new Response.Listener<String>() {
+                StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://apphappy.000webhostapp.com/Register.php", new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_LONG).show();

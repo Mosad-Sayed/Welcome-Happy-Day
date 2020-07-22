@@ -9,8 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="30dp"
-        >
+        android:layout_marginVertical="30dp">
 
         <TableRow>
 
@@ -18,9 +17,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
+                android:background="@drawable/list_round"
                 android:gravity="center"
                 android:text="ID"
-                android:background="@drawable/list_round"
                 android:textStyle="bold" />
 
             <TextView
@@ -29,8 +28,8 @@
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:gravity="center"
                 android:background="@drawable/list_round"
+                android:gravity="center"
                 android:text=""
                 android:textStyle="bold"
 
@@ -45,9 +44,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
+                android:background="@drawable/list_round"
                 android:gravity="center"
                 android:text="Name"
-                android:background="@drawable/list_round"
                 android:textStyle="bold"
 
                 />
@@ -58,9 +57,9 @@
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/list_round"
                 android:gravity="center"
                 android:text=""
-                android:background="@drawable/list_round"
                 android:textStyle="bold"
 
                 />
@@ -74,10 +73,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
-                android:gravity="center"
-                android:text="Hall Name"
-                android:padding="5dp"
                 android:background="@drawable/list_round"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hall Name"
                 android:textStyle="bold"
 
                 />
@@ -88,8 +87,8 @@
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:gravity="center"
                 android:background="@drawable/list_round"
+                android:gravity="center"
                 android:text=""
                 android:textStyle="bold"
 
@@ -104,9 +103,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
+                android:background="@drawable/list_round"
                 android:gravity="center"
                 android:text="Phone"
-                android:background="@drawable/list_round"
                 android:textStyle="bold"
 
                 />
@@ -117,9 +116,9 @@
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/list_round"
                 android:gravity="center"
                 android:text=""
-                android:background="@drawable/list_round"
                 android:textStyle="bold" />
 
 
@@ -131,10 +130,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_margin="10dp"
-                android:gravity="center"
-                android:text="Booking Date"
-                android:padding="10dp"
                 android:background="@drawable/list_round"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Booking Date"
                 android:textStyle="bold"
 
                 />
@@ -145,17 +144,18 @@
                 android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/list_round"
                 android:gravity="center"
                 android:text=""
-                android:background="@drawable/list_round"
                 android:textStyle="bold" />
 
 
         </TableRow>
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
+
             <ImageView
                 android:id="@+id/Call_phone"
                 android:layout_width="wrap_content"

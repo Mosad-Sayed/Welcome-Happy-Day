@@ -20,13 +20,13 @@ public class Laylaty_detials extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/l4.jpg",
+            "https://apphappy.000webhostapp.com/images/l4.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/l5.jpg",
+            "https://apphappy.000webhostapp.com/images/l5.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/l6.jpg",
+            "https://apphappy.000webhostapp.com/images/l6.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/l4.jpg"
+            "https://apphappy.000webhostapp.com/images/l4.jpg"
 
     };
 

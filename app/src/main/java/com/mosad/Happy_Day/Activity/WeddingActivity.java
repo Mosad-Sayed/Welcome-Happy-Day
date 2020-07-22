@@ -2,8 +2,13 @@ package com.mosad.Happy_Day.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,8 +17,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SearchView;
@@ -47,13 +54,15 @@ import java.util.ArrayList;
 import static android.app.PendingIntent.getActivity;
 
 public class WeddingActivity extends AppCompatActivity {
-    String url = "https://hallsapplication.000webhostapp.com/wedding.php";
+    String url = "https://apphappy.000webhostapp.com/wedding.php";
     TextView textView;
     RequestQueue requestQueue;
     ListView listView;
     Button help;
     ImageView white_back;
-    ArrayList<WeddingItem> listItems = new ArrayList<WeddingItem>();
+    EditText searchET;
+    private ArrayList<WeddingItem> listItems = new ArrayList<WeddingItem>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,11 +72,13 @@ public class WeddingActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textview);
         requestQueue = Volley.newRequestQueue(this);
         listView = (ListView) findViewById(R.id.listview);
+        listView.setTextFilterEnabled(true);
+
 
         // get Data in database
         JSONObject jsonObject = new JSONObject();
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://hallsapplication.000webhostapp.com/wedding.php", jsonObject, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://apphappy.000webhostapp.com/wedding.php", jsonObject, new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {
@@ -104,8 +115,9 @@ public class WeddingActivity extends AppCompatActivity {
     // Open Activity Detials
     public void listAllItem() {
 
-        listAdapter lA = new listAdapter(listItems);
+        final listAdapter lA = new listAdapter(listItems);
         listView.setAdapter(lA);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -154,7 +166,9 @@ public class WeddingActivity extends AppCompatActivity {
             }
         });
 
+
     }
+
 
     // Adpter
     class listAdapter extends BaseAdapter {
@@ -195,10 +209,13 @@ public class WeddingActivity extends AppCompatActivity {
             name.setText(listA.get(i).name);
             price.setText(listA.get(i).price);
 
-            Picasso.get().load("https://hallsapplication.000webhostapp.com/images/" + listA.get(i).img).into(img);
+            Picasso.get().load("https://apphappy.000webhostapp.com/images/" + listA.get(i).img).into(img);
+
 
             return view1;
         }
+
+
     }
 
     public void initback() {
@@ -210,5 +227,6 @@ public class WeddingActivity extends AppCompatActivity {
             }
         });
     }
-
 }
+
+

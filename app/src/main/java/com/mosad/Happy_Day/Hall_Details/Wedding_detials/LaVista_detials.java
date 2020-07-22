@@ -23,13 +23,13 @@ public class LaVista_detials extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/lvsta4.jpg",
+            "https://apphappy.000webhostapp.com/images/lvsta4.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/lvsta5.jpg",
+            "https://apphappy.000webhostapp.com/images/lvsta5.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/lvsta6.jpg",
+            "https://apphappy.000webhostapp.com/images/lvsta6.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/lvsta3.jpg"
+            "https://apphappy.000webhostapp.com/images/lvsta3.jpg"
 
     };
 

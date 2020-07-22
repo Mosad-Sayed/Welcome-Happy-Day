@@ -39,9 +39,9 @@
 
             <ImageView
                 android:id="@+id/backlogin"
-                android:onClick="backlogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="backlogin"
                 android:src="@drawable/ic_white_back" />
 
 
@@ -89,8 +89,7 @@
 
                 <com.balysv.materialripple.MaterialRippleLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <Button
                         android:layout_width="match_parent"
@@ -159,7 +158,6 @@
                 android:padding="20dp">
 
 
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -171,9 +169,9 @@
                 <EditText
                     android:id="@+id/txtuser"
                     android:layout_width="match_parent"
-                    android:inputType="textPersonName"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
+                    android:inputType="textPersonName"
                     android:textSize="16sp" />
 
                 <TextView
@@ -184,15 +182,14 @@
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
+
                 <EditText
                     android:id="@+id/txtemail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:inputType="textEmailAddress"
-                    android:textSize="16sp"
-
-                    />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -202,21 +199,22 @@
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
+
                 <EditText
                     android:id="@+id/txtpass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:textSize="16sp"
                     android:inputType="textPassword"
+                    android:textSize="16sp"
 
                     />
+
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
-                    >
+                    android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -229,10 +227,9 @@
                         app:cardCornerRadius="20dp">
 
                         <com.balysv.materialripple.MaterialRippleLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
                             style="@style/RippleStyleGray"
-                            >
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
                             <Button
                                 android:id="@+id/btnregister"
@@ -259,11 +256,11 @@
             android:layout_marginRight="25dp"
             android:layout_marginBottom="25dp"
             android:gravity="center"
-            android:text="Log in"
+            android:shadowColor="@color/grey"
             android:shadowDx="2"
             android:shadowDy="2"
             android:shadowRadius="15"
-            android:shadowColor="@color/grey"
+            android:text="Log in"
             android:textColor="@color/register"
             android:textSize="25sp"
             android:textStyle="bold" />

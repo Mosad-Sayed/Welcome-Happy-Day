@@ -22,10 +22,10 @@ public class MyJoy_details extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/frhty1.jpg",
-            "https://hallsapplication.000webhostapp.com/images/frhty2.jpg",
-            "https://hallsapplication.000webhostapp.com/images/frhty3.jpg",
-            "https://hallsapplication.000webhostapp.com/images/frhty4.jpg"
+            "https://apphappy.000webhostapp.com/images/frhty1.jpg",
+            "https://apphappy.000webhostapp.com/images/frhty2.jpg",
+            "https://apphappy.000webhostapp.com/images/frhty3.jpg",
+            "https://apphappy.000webhostapp.com/images/frhty4.jpg"
 
     };
 

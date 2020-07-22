@@ -24,13 +24,13 @@ public class Meeting_details extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/meet2.jpg",
+            "https://apphappy.000webhostapp.com/images/meet2.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/meet3.jpg",
+            "https://apphappy.000webhostapp.com/images/meet3.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/meet4.jpg",
+            "https://apphappy.000webhostapp.com/images/meet4.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/meet5.jpg"
+            "https://apphappy.000webhostapp.com/images/meet5.jpg"
 
     };
 

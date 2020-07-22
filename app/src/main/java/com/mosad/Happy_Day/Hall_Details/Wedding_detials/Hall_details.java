@@ -22,13 +22,13 @@ public class Hall_details extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/a.jpg",
+            "https://apphappy.000webhostapp.com/images/a.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/b.jpg",
+            "https://apphappy.000webhostapp.com/images/b.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/c.jpg",
+            "https://apphappy.000webhostapp.com/images/c.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/d.jpg"
+            "https://apphappy.000webhostapp.com/images/d.jpg"
 
     };
 

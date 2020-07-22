@@ -23,13 +23,13 @@ public class Nights_details extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/night.jpg",
+            "https://apphappy.000webhostapp.com/images/night.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/night1.jpg",
+            "https://apphappy.000webhostapp.com/images/night1.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/night2.jpg",
+            "https://apphappy.000webhostapp.com/images/night2.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/night3.jpg"
+            "https://apphappy.000webhostapp.com/images/night3.jpg"
     };
 
     @Override

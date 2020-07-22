@@ -23,13 +23,13 @@ public class Laguna_details extends AppCompatActivity {
 
     private String[] imageUrls = new String[]{
 
-            "https://hallsapplication.000webhostapp.com/images/meet11.jpg",
+            "https://apphappy.000webhostapp.com/images/meet11.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/meet12.jpg",
+            "https://apphappy.000webhostapp.com/images/meet12.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/meet13.jpg",
+            "https://apphappy.000webhostapp.com/images/meet13.jpg",
 
-            "https://hallsapplication.000webhostapp.com/images/meet14.jpg"
+            "https://apphappy.000webhostapp.com/images/meet14.jpg"
 
     };
 
